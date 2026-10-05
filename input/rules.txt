@@ -1,0 +1,5 @@
+*, *, /, default-cluster
+api.com, *, /api, default-api-cluster
+api.inference.com, POST, /api/server/inference, inference-cluster
+api.gpu.com, GET, /api/gpu, gpu-cluster
+api.workflow.com, POST, /workflow, workflow-cluster
